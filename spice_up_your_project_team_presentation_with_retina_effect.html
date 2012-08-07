@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Spice up your project team presentation with Retina effect</title>
+<style type="text/css">
+body		{ font-size:14px; color:#666; background:url('retina/bg.jpg') no-repeat; font-family:Arial, Helvetica, sans-serif;}
+#main		{ margin:40px auto; position:relative; width:750px; }
+#wrap		{ height:400px; position:relative; }
+#webpage	{ width:499px; height:283px; position:absolute; top:50%; left:50%; margin:-141px 0 0 -249px; }
+#retina		{ background:url('retina/team.png') no-repeat center center white; border:2px solid white; position:absolute; height:180px; width:180px; display:none; cursor:url('retina/blank.cur'),default; -moz-box-shadow:0 0 5px #777, 0 0 10px #aaa inset; -webkit-box-shadow:0 0 5px #777; box-shadow:0 0 5px #777, 0 0 10px #aaa inset; -moz-border-radius:90px; -webkit-border-radius:90px; border-radius:90px; }
+#retina.chrome{ cursor:url('retina/blank_google_chrome.cur'),default; }
+a, a:visited { color:#666; text-decoration:none; outline:none; }
+a:hover{ text-decoration:underline; }
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="retina.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+<img src="retina/jquerylogo.png" height="80" />
+<p align="right">Hover over the squad to take a closer look...</p>
+	<div id="wrap">
+    	<div id="webpage">
+			<img src="retina/team.png" width="499" height="283" />
+        	<div id="retina"></div>
+        </div>
+    </div>
+<p align="right">back to <a href="http://shoogledesigns.com/blog">shoogledesigns</a></p>
+</div>
+
+<script type="text/javascript">													
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-12776692-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+</html>
